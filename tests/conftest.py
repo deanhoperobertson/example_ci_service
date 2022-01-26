@@ -1,5 +1,7 @@
+"""exmaple conftest"""
 import pytest
+
 
 @pytest.fixture
 def model_number_three():
-	return 3
+    return 3
